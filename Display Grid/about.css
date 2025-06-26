@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.4s;
+}
+#div_left {
+    padding: 0 15px;
+    background-color: #2916e0;
+    color: white;
+
+}
+#div_img {
+    vertical-align: middle;
+    background-image: url(about-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: inherit;
+    z-index: 999 ;
+    text-align: center;
+
+}
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 90px 0.5fr 0.5fr;
+    
+    
+}
+
+#img_me {
+    z-index: 998;
+    border-radius: 50%;
+    margin-top: 82px;
+    margin-bottom: 50px;
+    justify-content: center;
+    
+}
+h2 {
+    font-size: 38px;
+    line-height: 1.2;
+}
+#profile_p {
+    padding-top: 20px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 1.5;
+}
